@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  app:
+  django:
     user: $UID:$GID
     build:
       context: .
